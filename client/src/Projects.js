@@ -6,12 +6,14 @@ export default function Projects() {
   return (
     <div class="project-container" id="projects">
       <div>
-        <h1>Projects</h1>
+        <h2 class="container-title">Projects</h2>
       </div>
       <div class="project-list">
         <div class="project">
           <div class="project-preview">
-            <img src={taskManager} alt="Ticket and Task Manager" />
+            <a href="https://github.com/ThereaultL/TicketAndTaskManager">
+              <img src={taskManager} alt="Ticket and Task Manager" />
+            </a>
           </div>
           <h2>Task and Ticket Manager</h2>
           <p>
@@ -59,7 +61,9 @@ export default function Projects() {
         </div>
         <div class="project">
           <div class="project-preview">
-            <img src={todoList} alt="ToDo List" />
+            <a href="https://github.com/ThereaultL/ToDo-DesktopApp">
+              <img src={todoList} alt="ToDo List" />
+            </a>
           </div>
           <h2>ToDo List</h2>
           <p>
@@ -117,7 +121,9 @@ export default function Projects() {
         </div>
         <div class="project">
           <div class="project-preview">
-            <img src={atm} alt="ATM" />
+            <a href="https://github.com/ThereaultL/ATM">
+              <img src={atm} alt="ATM" />
+            </a>
           </div>
           <h2>ATM</h2>
           <p>

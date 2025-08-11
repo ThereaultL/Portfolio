@@ -10,7 +10,7 @@ export default function About() {
           accessible products.
         </h2>
         <div class="my-story">
-          <h2>My Story</h2>
+          <h2 class="container-title">My Story</h2>
           <p>
             Nice to meet you, I'm Lillian Thereault, a Junior studying Computer
             Science at Western Carolina University. My programming journey began

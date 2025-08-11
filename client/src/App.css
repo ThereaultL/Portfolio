@@ -17,6 +17,10 @@ body {
   cursor: default;
 }
 
+p {
+  font-size: 20px;
+}
+
 .App {
   text-align: center;
   font-family: "Rajdhani";
@@ -39,12 +43,11 @@ body {
 }
 
 .portfolio p {
-  font-size: 20px;
   padding-left: 5px;
 }
 
 .portfolio h1 {
-  font-size: 60px;
+  font-size: 75px;
   padding-top: 25px;
 }
 
@@ -138,6 +141,7 @@ body {
 }
 
 .skill-card p {
+  font-size: 13px;
   color: var(--text-light);
 }
 
@@ -191,13 +195,16 @@ body {
   align-items: center;
   text-align: center;
 
-  font-size: 13px;
   border-radius: 10px;
   width: 65px;
   height: 30px;
   margin: 10px;
   background-color: var(--accent-gray);
   color: var(--text-light);
+}
+
+.project-stack p {
+  font-size: 13px;
 }
 
 .project-preview {
@@ -234,4 +241,8 @@ body {
   cursor: pointer;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-title {
+  font-size: 30px;
 }

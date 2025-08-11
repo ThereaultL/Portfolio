@@ -40,7 +40,7 @@ export default function App() {
       <About />
       <Projects />
       <div class="contact-container" id="contact">
-        <h2>Contact</h2>
+        <h2 class="container-title">Contact</h2>
         <div class="contact-info">
           <a href="https://www.linkedin.com/in/lillian-thereault">
             <img src={linkedin} alt="LinkedIn" />
