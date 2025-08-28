@@ -12,12 +12,12 @@ export default function About() {
         <div class="my-story">
           <h2 class="container-title">My Story</h2>
           <p>
-            Nice to meet you, I'm Lillian Thereault, a Junior studying Computer
+            Nice to meet you, I'm Lillian Thereault, a Senior studying Computer
             Science at Western Carolina University. My programming journey began
             in high school, where I first learned HTML and CSS in a webpage
             development class. Since then, I have fallen in love with coding and
             the endless opportunities it provides. In college, I have expanded
-            my skills to include JavaScript, React.js, Node.js, Python, and
+            my skills to include JavaScript, React.js, Node.js, Python, C, and
             Java. I have worked on varity of projects, from academic, personal,
             and even professional assignments.
           </p>
