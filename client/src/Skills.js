@@ -1,40 +1,19 @@
+import SkillCard from "./SkillCard";
+
 export default function Skills() {
   return (
     <div className="skills-container">
       <h2 class="container-title">Skills</h2>
       <div class="skills-list">
-        <div class="skill-card">
-          <h2>JavaScript</h2>
-          <p>Frontend & Backend</p>
-        </div>
-        <div class="skill-card">
-          <h2>React.js</h2>
-          <p>Frontend</p>
-        </div>
-        <div class="skill-card">
-          <h2>Node.js</h2>
-          <p>Backend</p>
-        </div>
-        <div class="skill-card">
-          <h2>HTML</h2>
-          <p>Frontend</p>
-        </div>
-        <div class="skill-card">
-          <h2>CSS</h2>
-          <p>Frontend</p>
-        </div>
-        <div class="skill-card">
-          <h2>Java</h2>
-          <p>Backend</p>
-        </div>
-        <div class="skill-card">
-          <h2>Python</h2>
-          <p>Backend & Scripting</p>
-        </div>
-        <div class="skill-card">
-          <h2>Jest</h2>
-          <p>Testing</p>
-        </div>
+        <SkillCard language={"JavaScript"} description={"Frontend & Backend"} />
+        <SkillCard language={"React.js"} description={"Frontend"} />
+        <SkillCard language={"Node.js"} description={"Backend"} />
+        <SkillCard language={"HTML"} description={"Frontend"} />
+        <SkillCard language={"CSS"} description={"UI/UX"} />
+        <SkillCard language={"Java"} description={"Backend"} />
+        <SkillCard language={"C"} description={"Backend"} />
+        <SkillCard language={"Python"} description={"Backend & Scripting"} />
+        <SkillCard language={"Jest"} description={"Testing"} />
       </div>
     </div>
   );
