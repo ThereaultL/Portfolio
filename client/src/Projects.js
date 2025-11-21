@@ -18,18 +18,19 @@ export default function Projects() {
           </div>
           <h2>Character Analysis</h2>
           <p>
-            Parses through a text file to distinguish what characters, if any,
-            exist within the text, along with how many times that character's
-            name appears directly in the text. Uses iteration to determine if
-            speech exists within text. Uses English grammar patterns to
-            determine which character is speaking. For each character with
-            speech in the text, a catchphrase is assigned, determined by the
-            most common non-pronoun, article, or preposition in their speech.
+            Analyzes a text file to identify all character names mentioned in
+            the text and counts how many times each one appears. It also detects
+            dialogue by iterating through the file and applying simple
+            speech-pattern rules. Using English grammar cues, the program infers
+            which character is speaking in each line of dialogue. For every
+            character who speaks, the program extracts a “catchphrase” by
+            determining the most frequently used word in their speech, excluding
+            pronouns, articles, and prepositions.
           </p>
           <div class="project-stack-container">
             <div class="project-stack">
               <p>
-                <em>Console</em>
+                <em>Python</em>
               </p>
             </div>
             <div class="project-stack">
@@ -39,7 +40,12 @@ export default function Projects() {
             </div>
             <div class="project-stack">
               <p>
-                <em>Python</em>
+                <em>Text Analysis</em>
+              </p>
+            </div>
+            <div class="project-stack">
+              <p>
+                <em>Data Analysis</em>
               </p>
             </div>
           </div>
@@ -59,11 +65,6 @@ export default function Projects() {
           <div class="project-stack-container">
             <div class="project-stack">
               <p>
-                <em>Webpage</em>
-              </p>
-            </div>
-            <div class="project-stack">
-              <p>
                 <em>React.js</em>
               </p>
             </div>
@@ -79,17 +80,12 @@ export default function Projects() {
             </div>
             <div class="project-stack">
               <p>
+                <em>REST API</em>
+              </p>
+            </div>
+            <div class="project-stack">
+              <p>
                 <em>JavaScript</em>
-              </p>
-            </div>
-            <div class="project-stack">
-              <p>
-                <em>HTML</em>
-              </p>
-            </div>
-            <div class="project-stack">
-              <p>
-                <em>CSS</em>
               </p>
             </div>
           </div>
@@ -109,11 +105,6 @@ export default function Projects() {
           <div class="project-stack-container">
             <div class="project-stack">
               <p>
-                <em>Application</em>
-              </p>
-            </div>
-            <div class="project-stack">
-              <p>
                 <em>React.js</em>
               </p>
             </div>
@@ -124,27 +115,17 @@ export default function Projects() {
             </div>
             <div class="project-stack">
               <p>
-                <em>Express.js</em>
-              </p>
-            </div>
-            <div class="project-stack">
-              <p>
                 <em>Electron.js</em>
               </p>
             </div>
             <div class="project-stack">
               <p>
+                <em>Express.js</em>
+              </p>
+            </div>
+            <div class="project-stack">
+              <p>
                 <em>JavaScript</em>
-              </p>
-            </div>
-            <div class="project-stack">
-              <p>
-                <em>HTML</em>
-              </p>
-            </div>
-            <div class="project-stack">
-              <p>
-                <em>CSS</em>
               </p>
             </div>
             <div class="project-stack">
@@ -173,12 +154,17 @@ export default function Projects() {
           <div class="project-stack-container">
             <div class="project-stack">
               <p>
-                <em>Console</em>
+                <em>Java</em>
               </p>
             </div>
             <div class="project-stack">
               <p>
-                <em>Java</em>
+                <em>OOP</em>
+              </p>
+            </div>
+            <div class="project-stack">
+              <p>
+                <em>Data Handeling</em>
               </p>
             </div>
           </div>
