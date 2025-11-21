@@ -1,6 +1,7 @@
 import taskManager from "./assets/TicketAndTaskManager.png";
 import todoList from "./assets/ToDoList.png";
 import atm from "./assets/ATM.png";
+import characterAnalysis from "./assets/CharacterAnalysis.png";
 
 export default function Projects() {
   return (
@@ -9,6 +10,40 @@ export default function Projects() {
         <h2 class="container-title">Projects</h2>
       </div>
       <div class="project-list">
+        <div class="project">
+          <div class="project-preview">
+            <a href="https://github.com/ThereaultL/CharacterAnalysis">
+              <img src={characterAnalysis} alt="Character Analysis" />
+            </a>
+          </div>
+          <h2>Character Analysis</h2>
+          <p>
+            Parses through a text file to distinguish what characters, if any,
+            exist within the text, along with how many times that character's
+            name appears directly in the text. Uses iteration to determine if
+            speech exists within text. Uses English grammar patterns to
+            determine which character is speaking. For each character with
+            speech in the text, a catchphrase is assigned, determined by the
+            most common non-pronoun, article, or preposition in their speech.
+          </p>
+          <div class="project-stack-container">
+            <div class="project-stack">
+              <p>
+                <em>Console</em>
+              </p>
+            </div>
+            <div class="project-stack">
+              <p>
+                <em>File Parsing</em>
+              </p>
+            </div>
+            <div class="project-stack">
+              <p>
+                <em>Python</em>
+              </p>
+            </div>
+          </div>
+        </div>
         <div class="project">
           <div class="project-preview">
             <a href="https://github.com/ThereaultL/TicketAndTaskManager">
